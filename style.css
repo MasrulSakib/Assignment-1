@@ -7,6 +7,10 @@ h2 {
 
 }
 
+h1 {
+    font-size: 40px;
+}
+
 .background-image img {
     width: 100%;
     height: 850px;
@@ -38,10 +42,117 @@ h2 {
     background-color: black;
     opacity: .6;
     padding: 10px;
+    font-size: 15px;
 }
 
 .color {
     color: orange;
     font-weight: 500;
     font-family: 'Kalam', cursive;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: repeating-linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.pay-button {
+    text-decoration: none;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+    background-image: repeating-linear-gradient(orange, tomato);
+    padding: 30px 40px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 18px;
+    margin-right: 20px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    transition: all 0.2s ease-in-out;
+}
+
+.glow:hover {
+    color: rgba(255, 255, 255, 1);
+    box-shadow: 0 5px 15px rgba(145, 92, 182, .4);
+}
+
+.center-view {
+    text-align: center;
+    padding: 30px;
+}
+
+.payment-option {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding: 30px 40px;
+    border-radius: 4px;
+    font-weight: 700;
+
+
+}
+
+.center-view p {
+    margin-top: 5%;
+    font-weight: 700;
+    font-family: 'Oxygen', sans-serif;
+    font-size: 18px;
+}
+
+.exp-edit {
+    box-shadow: 10px 10px 40px orange;
+    width: 50%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    margin-top: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+
+}
+
+.flex-con {
+    display: flex;
+    margin-bottom: 150px;
+
+}
+
+#red {
+    background-color: rgb(230, 146, 146);
+}
+
+#green {
+    background-color: rgb(149, 212, 149);
+}
+
+#blue {
+    background-color: rgb(144, 144, 226);
+}
+
+.text {
+    width: 80%;
+    padding: 10px;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.text img {
+    width: 650px;
+    margin-right: 80px;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 3%;
+}
+
+.text p {
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
 }
